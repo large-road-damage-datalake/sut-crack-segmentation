@@ -1,0 +1,14 @@
+{
+  "type": "treemap",
+  "title": "Class Treemap",
+  "series": [
+    {
+      "data": [
+        {
+          "x": "255",
+          "y": 130
+        }
+      ]
+    }
+  ]
+}

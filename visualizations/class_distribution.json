@@ -1,0 +1,16 @@
+{
+  "type": "bar",
+  "title": "Class Distribution",
+  "data": {
+    "labels": [
+      "255"
+    ],
+    "values": [
+      130
+    ],
+    "total": 130,
+    "percentages": [
+      100.0
+    ]
+  }
+}

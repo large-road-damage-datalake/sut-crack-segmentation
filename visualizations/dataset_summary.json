@@ -1,0 +1,14 @@
+{
+  "total_images": 130,
+  "total_annotations": 130,
+  "total_classes": 1,
+  "splits_breakdown": {
+    "data": {
+      "images": 130,
+      "annotations": 130,
+      "classes": {
+        "255": 130
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "columns": [
+    "Class",
+    "Share(%)",
+    "Objects",
+    "Objects per image"
+  ],
+  "data": [
+    [
+      "255",
+      100.0,
+      130,
+      1.0
+    ]
+  ],
+  "options": {
+    "sort": {
+      "columnIndex": 2,
+      "order": "desc"
+    },
+    "pageSize": 50
+  }
+}

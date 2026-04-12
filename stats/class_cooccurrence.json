@@ -1,0 +1,12 @@
+{
+  "type": "matrix",
+  "labels": [
+    "255"
+  ],
+  "data": [
+    [
+      130
+    ]
+  ],
+  "title": "Class Co-occurrence (images containing class pairs)"
+}

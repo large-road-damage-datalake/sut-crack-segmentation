@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "basic_info": {
+    "id": "sut-crack-segmentation",
+    "name": "SUT-Crack Segmentation",
+    "short_name": "sut-crack-seg",
+    "description": "Segmentation subset of SUT-Crack with image-mask pairs for pavement crack extraction.",
+    "year": 2023
+  },
+  "project_context": {
+    "task": "segmentation",
+    "tasks": [
+      "segmentation"
+    ],
+    "damage_types": [
+      "crack"
+    ]
+  },
+  "imaging_setup": {
+    "camera": "Ground-facing pavement capture setup",
+    "resolution": "Variable",
+    "lighting_conditions": "Variable lighting with shadows and oil stains",
+    "capture_height_mm": 672,
+    "geotagged": true
+  },
+  "annotation_schema": [
+    {
+      "type": "semantic_segmentation",
+      "description": "PNG mask labels for crack pixels",
+      "classes": [
+        {
+          "id": 0,
+          "name": "background",
+          "description": "Non-crack pixels",
+          "color": "#000000"
+        },
+        {
+          "id": 255,
+          "name": "crack",
+          "description": "Crack pixels",
+          "color": "#FF0000"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "n_images": 130,
+    "n_annotations": 130,
+    "n_images_with_annotations": 130,
+    "average_annotations_per_image": 1.0,
+    "image_format": "png_masks",
+    "class_distribution": {
+      "255": 130
+    },
+    "split": {
+      "data": {
+        "n_images": 130,
+        "percentage": 1.0
+      }
+    }
+  },
+  "geographic_coverage": {
+    "countries": [
+      {
+        "name": "Iran",
+        "image_count": 130
+      }
+    ],
+    "temporal_scope": "Published 2023"
+  },
+  "quality_assurance": {
+    "annotation_quality": "Precise pixel-level ground truth reported in Data in Brief",
+    "inter_annotator_agreement": "Not reported",
+    "review_status": "Published dataset (Mendeley Data V6)"
+  },
+  "authors": [
+    {
+      "name": "Mohammadreza Sabouri",
+      "affiliation": "Sharif University of Technology",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Alireza Sepidbar",
+      "affiliation": "Sharif University of Technology",
+      "role": "Dataset Creator"
+    }
+  ],
+  "license": "CC BY 4.0",
+  "source_publication": {
+    "dataset_doi": "10.17632/gsbmknrhkv.6",
+    "article_doi": "10.1016/j.dib.2023.109642",
+    "article_title": "SUT-Crack: A comprehensive dataset for pavement crack detection across all methods",
+    "journal": "Data in Brief",
+    "year": 2023
+  },
+  "links": {
+    "github": "https://github.com/large-road-damage-datalake/sut-crack-segmentation",
+    "download": "https://data.mendeley.com/datasets/gsbmknrhkv/6",
+    "doi": "https://doi.org/10.17632/gsbmknrhkv.6",
+    "paper": "https://doi.org/10.1016/j.dib.2023.109642",
+    "homepage": "https://data.mendeley.com/datasets/gsbmknrhkv/6"
+  },
+  "citation": {
+    "bibtex": "@dataset{sabouri2023sutcrack,\n  author = {Sabouri, Mohammadreza and Sepidbar, Alireza},\n  title = {SUT-Crack},\n  year = {2023},\n  publisher = {Mendeley Data},\n  version = {6},\n  doi = {10.17632/gsbmknrhkv.6},\n  url = {https://doi.org/10.17632/gsbmknrhkv.6}\n}",
+    "article_bibtex": "@article{sabouri2023sutcrack_article,\n  title = {SUT-Crack: A comprehensive dataset for pavement crack detection across all methods},\n  author = {Sabouri, Mohammadreza and Sepidbar, Alireza},\n  journal = {Data in Brief},\n  volume = {51},\n  pages = {109642},\n  year = {2023},\n  doi = {10.1016/j.dib.2023.109642}\n}"
+  },
+  "tags": [
+    "segmentation",
+    "pavement-crack",
+    "asphalt",
+    "road-damage",
+    "sut-crack"
+  ]
+}
