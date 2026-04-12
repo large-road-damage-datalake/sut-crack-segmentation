@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "basic_info": {
     "id": "sut-crack-segmentation",
-    "name": "SUT-Crack Segmentation",
+    "name": "SUT-Crack",
     "short_name": "sut-crack-seg",
     "description": "Segmentation subset of SUT-Crack with image-mask pairs for pavement crack extraction.",
     "year": 2023
