@@ -83,8 +83,8 @@
   "geographic_coverage": {
     "countries": [
       {
-        "name": "Not explicitly specified in source",
-        "image_count": 0
+        "name": "Iran",
+        "image_count": 130
       }
     ],
     "temporal_scope": "Published in 2023 (Mendeley Data v6)"
