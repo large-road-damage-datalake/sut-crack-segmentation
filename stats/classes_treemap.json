@@ -1,14 +1,15 @@
 {
   "type": "treemap",
-  "title": "Class Treemap",
+  "title": "Average area of class objects on image",
   "series": [
     {
       "data": [
         {
           "x": "255",
-          "y": 130
+          "y": 0.0
         }
       ]
     }
-  ]
+  ],
+  "value_unit": "%"
 }

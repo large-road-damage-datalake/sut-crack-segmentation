@@ -1,23 +1,26 @@
 {
   "columns": [
     "Class",
-    "Share(%)",
+    "Images",
     "Objects",
-    "Objects per image"
+    "Count on image, average",
+    "Area on image, average (%)"
   ],
   "data": [
     [
       "255",
-      100.0,
       130,
-      1.0
+      130,
+      1.0,
+      0.0
     ]
   ],
+  "description": "Images column counts images containing at least one object of class.",
   "options": {
     "sort": {
       "columnIndex": 2,
       "order": "desc"
     },
-    "pageSize": 50
+    "pageSize": 100
   }
 }

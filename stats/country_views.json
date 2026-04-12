@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "default_view": "all",
+  "view_order": [
+    "all"
+  ],
+  "views": {
+    "all": {
+      "id": "all",
+      "label": "All",
+      "split_names": [
+        "data"
+      ],
+      "summary": {
+        "num_images": 130,
+        "num_annotations": 130,
+        "num_images_with_annotations": 130,
+        "num_images_without_annotations": 0,
+        "num_classes": 1,
+        "annotation_coverage": 1.0,
+        "class_distribution": {
+          "255": 130
+        }
+      },
+      "artifacts": {
+        "class_balance": {
+          "columns": [
+            "Class",
+            "Images",
+            "Objects",
+            "Count on image, average",
+            "Area on image, average (%)"
+          ],
+          "data": [
+            [
+              "255",
+              130,
+              130,
+              1.0,
+              0.0
+            ]
+          ],
+          "description": "Images column counts images containing at least one object of class.",
+          "options": {
+            "sort": {
+              "columnIndex": 2,
+              "order": "desc"
+            },
+            "pageSize": 100
+          }
+        },
+        "class_cooccurrence": {
+          "type": "matrix",
+          "labels": [
+            "255"
+          ],
+          "data": [
+            [
+              130
+            ]
+          ],
+          "title": "Co-occurrence Matrix",
+          "description": "Cell [i,j] is number of images that contain both classes i and j."
+        },
+        "class_sizes": {
+          "columns": [
+            "Class",
+            "Object count",
+            "Avg area (%)",
+            "Max area (%)",
+            "Min area (%)",
+            "Min height (px)",
+            "Min height (%)",
+            "Max height (px)",
+            "Max height (%)",
+            "Avg height (px)",
+            "Avg height (%)"
+          ],
+          "data": [
+            [
+              "255",
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+        },
+        "objects_distribution": {
+          "type": "heatmap",
+          "title": "Objects on images - distribution for every class",
+          "x_labels": [
+            "0",
+            "1"
+          ],
+          "y_labels": [
+            "255"
+          ],
+          "z": [
+            [
+              0,
+              130
+            ]
+          ],
+          "description": "Value = number of images where class has exactly x objects."
+        },
+        "classes_per_image": {
+          "type": "histogram",
+          "title": "Distinct classes per image",
+          "series": [
+            {
+              "name": "classes",
+              "data": [
+                {
+                  "x": "0",
+                  "y": 0
+                },
+                {
+                  "x": "1",
+                  "y": 130
+                }
+              ]
+            }
+          ]
+        },
+        "classes_treemap": {
+          "type": "treemap",
+          "title": "Average area of class objects on image",
+          "series": [
+            {
+              "data": [
+                {
+                  "x": "255",
+                  "y": 0.0
+                }
+              ]
+            }
+          ],
+          "value_unit": "%"
+        }
+      },
+      "samples_summary": {
+        "sample_count": 10,
+        "slider_pairs": 10,
+        "samples_dir": "visualizations/samples",
+        "samples_manifest": "visualizations/samples/samples_manifest.json",
+        "annotated_samples_dir": "visualizations/samples/annotated",
+        "sample_annotations_dir": "visualizations/samples/annotations"
+      },
+      "spatial_heatmaps": {
+        "generated": true,
+        "dir": "visualizations/spatial_heatmaps",
+        "classes": []
+      }
+    }
+  }
+}

@@ -1,19 +1,18 @@
 {
-  "type": "histogram",
-  "title": "Objects per image distribution",
-  "series": [
-    {
-      "name": "all_classes",
-      "data": [
-        {
-          "x": "0",
-          "y": 0
-        },
-        {
-          "x": "1",
-          "y": 130
-        }
-      ]
-    }
-  ]
+  "type": "heatmap",
+  "title": "Objects on images - distribution for every class",
+  "x_labels": [
+    "0",
+    "1"
+  ],
+  "y_labels": [
+    "255"
+  ],
+  "z": [
+    [
+      0,
+      130
+    ]
+  ],
+  "description": "Value = number of images where class has exactly x objects."
 }

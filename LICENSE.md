@@ -1,16 +1,14 @@
-﻿# License
+# License
 
 ## Source Dataset License
 
-SUT-Crack is distributed on Mendeley Data under:
+SUT-Crack on Mendeley Data is published under:
 
-- Creative Commons Attribution 4.0 International (CC BY 4.0)
-- Source: https://data.mendeley.com/datasets/gsbmknrhkv/6
+- CC BY 4.0
 
-## Package Notice
+- Source page: https://data.mendeley.com/datasets/gsbmknrhkv/6
+- DOI URL: https://doi.org/10.17632/gsbmknrhkv.6
 
-This repository is a task-specific packaging and analytics build based on the source dataset.
-Please preserve attribution to the original authors:
+## Package Artifacts
 
-- Mohammadreza Sabouri
-- Alireza Sepidbar
+Generated metadata/statistical artifacts in this package follow repository policy and should be used with source attribution.

@@ -1,7 +1,11 @@
-﻿# Abstract
+# Abstract
 
-SUT-Crack Segmentation is a curated task-specific packaging of SUT-Crack for reproducible model development and benchmarking in road damage analysis.
+SUT-Crack (Segmentation) is a task-specific packaging of the SUT-Crack source dataset,
+introduced by Sabouri and Sepidbar in Data in Brief (2023).
 
-The original SUT-Crack dataset was introduced to support crack-related computer vision workflows and includes challenging acquisition conditions such as shadows, oil stains, and varying illumination.
+The source dataset targets pavement crack analysis across multiple deep-learning paradigms and
+explicitly includes challenging road-surface conditions such as shadows, oil stains, and variable lighting.
+Source images were captured from a fixed height of 672 mm and include geotag information.
 
-This package focuses on the segmentation representation and preserves publication metadata, references, and derived analytics artifacts used by the Large Road Damage DataLake.
+This package provides standardized metadata, reproducible statistics, and website-ready artifacts for
+the Segmentation task.

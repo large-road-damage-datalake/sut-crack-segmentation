@@ -1,12 +1,10 @@
-﻿# Summary
+# Summary
 
-- Dataset package: SUT-Crack Segmentation
-- Source dataset: SUT-Crack (Mendeley Data V6)
-- Task: segmentation
-- Image count: 130
-- Annotation count: 130
-- Class setup: 1 foreground crack class (+ background)
-
-Primary references:
-- Dataset DOI: 10.17632/gsbmknrhkv.6
-- Article DOI: 10.1016/j.dib.2023.109642
+- Dataset: SUT-Crack
+- Variant: Segmentation
+- Images in package: 130
+- Annotations in package: 130
+- Classes: 1 (255)
+- Source dataset DOI: 10.17632/gsbmknrhkv.6
+- Source paper DOI: 10.1016/j.dib.2023.109642
+- Source institution: Sharif University of Technology

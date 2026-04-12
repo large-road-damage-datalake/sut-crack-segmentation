@@ -1,15 +1,20 @@
-﻿# Download
+# Download
 
-## Official Source Download
+## Source Dataset
 
-- Mendeley Data page: https://data.mendeley.com/datasets/gsbmknrhkv/6
-- DOI landing page: https://doi.org/10.17632/gsbmknrhkv.6
+- Dataset landing page: https://data.mendeley.com/datasets/gsbmknrhkv/6
+- DOI URL: https://doi.org/10.17632/gsbmknrhkv.6
 
-## Package Repository
+## Packaged Variant
 
-- Task package: https://github.com/large-road-damage-datalake/sut-crack-segmentation
+- https://github.com/large-road-damage-datalake/sut-crack-segmentation
+
+## Source Paper
+
+- SUT-Crack: A comprehensive dataset for pavement crack detection across all methods
+- DOI URL: https://doi.org/10.1016/j.dib.2023.109642
 
 ## Notes
 
-- This repository is a task-specific packaging of SUT-Crack for benchmarking.
-- The authoritative original distribution remains on Mendeley Data.
+- This repository contains standardized metadata/statistics artifacts for DataLake publication.
+- Source usage rights follow the source dataset license (CC BY 4.0).

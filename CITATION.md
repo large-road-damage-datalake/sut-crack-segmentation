@@ -1,17 +1,40 @@
-﻿# Citation
+# Citation
 
-If you use this package, please cite both the source dataset and the data article.
+If you use this package, please cite:
 
-## Source Dataset (Mendeley Data)
+1. The SUT-Crack data paper (https://doi.org/10.1016/j.dib.2023.109642)
+2. The SUT-Crack Mendeley dataset (https://doi.org/10.17632/gsbmknrhkv.6)
+3. This packaged variant (https://github.com/large-road-damage-datalake/sut-crack-segmentation)
 
-Sabouri, Mohammadreza; Sepidbar, Alireza (2023), "SUT-Crack", Mendeley Data, V6, doi: 10.17632/gsbmknrhkv.6
+## BibTeX
 
-## Data Article (Data in Brief)
+```bibtex
+@article{sabouri2023sutcrack,
+  title={SUT-Crack: A comprehensive dataset for pavement crack detection across all methods},
+  author={Sabouri, Mohammadreza and Sepidbar, Alireza},
+  journal={Data in Brief},
+  volume={51},
+  pages={109642},
+  year={2023},
+  doi={10.1016/j.dib.2023.109642},
+  url={https://doi.org/10.1016/j.dib.2023.109642}
+}
 
-Sabouri, M., & Sepidbar, A. (2023). SUT-Crack: A comprehensive dataset for pavement crack detection across all methods. Data in Brief, 51, 109642. doi: 10.1016/j.dib.2023.109642
+@misc{sabouri2023sutcrack_mendeley,
+  title={SUT-Crack},
+  author={Sabouri, Mohammadreza and Sepidbar, Alireza},
+  year={2023},
+  publisher={Mendeley Data},
+  version={6},
+  doi={10.17632/gsbmknrhkv.6},
+  url={https://doi.org/10.17632/gsbmknrhkv.6}
+}
 
-## Package Citation
-
-Use this package URL when citing the packaged variant:
-
-- https://github.com/large-road-damage-datalake/sut-crack-segmentation
+@misc{sut-crack-segmentation,
+  title={SUT-Crack (Segmentation) - Large Road Damage DataLake package},
+  author={Sabouri, Mohammadreza and Sepidbar, Alireza},
+  year={2023},
+  howpublished={\url{https://github.com/large-road-damage-datalake/sut-crack-segmentation}},
+  note={Task-specific package derived from SUT-Crack (10.17632/gsbmknrhkv.6)}
+}
+```

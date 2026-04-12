@@ -1,38 +1,35 @@
-﻿# SUT-Crack Segmentation
+# SUT-Crack - Segmentation
 
 ## Overview
 
-SUT-Crack Segmentation is a task-specific package derived from the SUT-Crack dataset.
+This package provides the **Segmentation** variant of SUT-Crack for the Large Road Damage DataLake.
 
+SUT-Crack was introduced in *Data in Brief* as a pavement crack dataset designed to support
+classification, object detection, and segmentation workflows under challenging field conditions.
+
+- Dataset ID: sut-crack-segmentation
 - Task: segmentation
 - Images: 130
 - Annotations: 130
-- Classes: 1 foreground crack class (+ background)
-- Annotation format: PNG masks paired with source images
+- Classes: 1 (255)
+- Format: png_masks
+- Source dataset DOI: 10.17632/gsbmknrhkv.6
+- Source paper DOI: 10.1016/j.dib.2023.109642
 
-This subset provides mask-based labels for crack segmentation tasks.
+## Source Facts
+
+- Original crack imagery for segmentation/object detection: 130 images.
+- Images captured from fixed height: 672 mm above pavement.
+- Geotag metadata included (latitude/longitude per image in source dataset).
+- Classification set built by 200x200 cropping, producing over 25,000 patches.
+- Uses full-size geotagged source images with crack masks.
 
 ## Source Dataset
 
-- Name: SUT-Crack
-- Dataset DOI: 10.17632/gsbmknrhkv.6
-- Dataset URL: https://data.mendeley.com/datasets/gsbmknrhkv/6
-- Article DOI: 10.1016/j.dib.2023.109642
-- Article title: SUT-Crack: A comprehensive dataset for pavement crack detection across all methods
-
-## Authors
-
-- Mohammadreza Sabouri (Sharif University of Technology)
-- Alireza Sepidbar (Sharif University of Technology)
-
-## License
-
-The source dataset is published under CC BY 4.0 (Mendeley Data).
-
-## Repository Links
-
-- Package repo: https://github.com/large-road-damage-datalake/sut-crack-segmentation
-- Source dataset: https://data.mendeley.com/datasets/gsbmknrhkv/6
+- Source URL: https://data.mendeley.com/datasets/gsbmknrhkv/6
+- Mendeley DOI URL: https://doi.org/10.17632/gsbmknrhkv.6
+- Source paper: https://doi.org/10.1016/j.dib.2023.109642
+- Package URL: https://github.com/large-road-damage-datalake/sut-crack-segmentation
 
 ## Package Contents
 
