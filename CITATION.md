@@ -29,12 +29,4 @@ If you use this package, please cite:
   doi={10.17632/gsbmknrhkv.6},
   url={https://doi.org/10.17632/gsbmknrhkv.6}
 }
-
-@misc{sut-crack-segmentation,
-  title={SUT-Crack (Segmentation) - Large Road Damage DataLake package},
-  author={Sabouri, Mohammadreza and Sepidbar, Alireza},
-  year={2023},
-  howpublished={\url{https://github.com/large-road-damage-datalake/sut-crack-segmentation}},
-  note={Task-specific package derived from SUT-Crack (10.17632/gsbmknrhkv.6)}
-}
 ```

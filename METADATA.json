@@ -132,7 +132,7 @@
     "paper": "https://doi.org/10.1016/j.dib.2023.109642"
   },
   "citation": {
-    "bibtex": "@article{sabouri2023sutcrack,\n  title={SUT-Crack: A comprehensive dataset for pavement crack detection across all methods},\n  author={Sabouri, Mohammadreza and Sepidbar, Alireza},\n  journal={Data in Brief},\n  volume={51},\n  pages={109642},\n  year={2023},\n  doi={10.1016/j.dib.2023.109642},\n  url={https://doi.org/10.1016/j.dib.2023.109642}\n}\n\n@misc{sabouri2023sutcrack_mendeley,\n  title={SUT-Crack},\n  author={Sabouri, Mohammadreza and Sepidbar, Alireza},\n  year={2023},\n  publisher={Mendeley Data},\n  version={6},\n  doi={10.17632/gsbmknrhkv.6},\n  url={https://doi.org/10.17632/gsbmknrhkv.6}\n}\n\n@misc{sut-crack-segmentation,\n  title={SUT-Crack (Segmentation) - Large Road Damage DataLake package},\n  author={Sabouri, Mohammadreza and Sepidbar, Alireza},\n  year={2023},\n  howpublished={\\url{https://github.com/large-road-damage-datalake/sut-crack-segmentation}},\n  note={Task-specific package derived from SUT-Crack (10.17632/gsbmknrhkv.6)}\n}"
+    "bibtex": "@article{sabouri2023sutcrack,\n  title={SUT-Crack: A comprehensive dataset for pavement crack detection across all methods},\n  author={Sabouri, Mohammadreza and Sepidbar, Alireza},\n  journal={Data in Brief},\n  volume={51},\n  pages={109642},\n  year={2023},\n  doi={10.1016/j.dib.2023.109642},\n  url={https://doi.org/10.1016/j.dib.2023.109642}\n}\n\n@misc{sabouri2023sutcrack_mendeley,\n  title={SUT-Crack},\n  author={Sabouri, Mohammadreza and Sepidbar, Alireza},\n  year={2023},\n  publisher={Mendeley Data},\n  version={6},\n  doi={10.17632/gsbmknrhkv.6},\n  url={https://doi.org/10.17632/gsbmknrhkv.6}\n}"
   },
   "tags": [
     "png-masks",

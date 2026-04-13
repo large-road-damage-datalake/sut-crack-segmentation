@@ -9,13 +9,14 @@
       "num_classes": 1,
       "objects": 1,
       "image_size": {
-        "width": 1280,
-        "height": 960
+        "width": 960,
+        "height": 1280
       },
       "resized_from": {
-        "width": 4032,
-        "height": 3024
+        "width": 3024,
+        "height": 4032
       },
+      "orientation_normalized": true,
       "annotation_mode": "mask",
       "annotation_format": "polygon",
       "annotated_file": null,
@@ -31,13 +32,14 @@
       "num_classes": 1,
       "objects": 1,
       "image_size": {
-        "width": 1280,
-        "height": 960
+        "width": 960,
+        "height": 1280
       },
       "resized_from": {
-        "width": 4032,
-        "height": 3024
+        "width": 3024,
+        "height": 4032
       },
+      "orientation_normalized": true,
       "annotation_mode": "mask",
       "annotation_format": "polygon",
       "annotated_file": null,
@@ -53,13 +55,14 @@
       "num_classes": 1,
       "objects": 1,
       "image_size": {
-        "width": 1280,
-        "height": 960
+        "width": 960,
+        "height": 1280
       },
       "resized_from": {
-        "width": 4032,
-        "height": 3024
+        "width": 3024,
+        "height": 4032
       },
+      "orientation_normalized": true,
       "annotation_mode": "mask",
       "annotation_format": "polygon",
       "annotated_file": null,
@@ -75,13 +78,14 @@
       "num_classes": 1,
       "objects": 1,
       "image_size": {
-        "width": 1280,
-        "height": 960
+        "width": 960,
+        "height": 1280
       },
       "resized_from": {
-        "width": 4032,
-        "height": 3024
+        "width": 3024,
+        "height": 4032
       },
+      "orientation_normalized": true,
       "annotation_mode": "mask",
       "annotation_format": "polygon",
       "annotated_file": null,
@@ -119,13 +123,14 @@
       "num_classes": 1,
       "objects": 1,
       "image_size": {
-        "width": 1280,
-        "height": 960
+        "width": 960,
+        "height": 1280
       },
       "resized_from": {
-        "width": 4032,
-        "height": 3024
+        "width": 3024,
+        "height": 4032
       },
+      "orientation_normalized": true,
       "annotation_mode": "mask",
       "annotation_format": "polygon",
       "annotated_file": null,
@@ -141,13 +146,14 @@
       "num_classes": 1,
       "objects": 1,
       "image_size": {
-        "width": 1280,
-        "height": 960
+        "width": 960,
+        "height": 1280
       },
       "resized_from": {
-        "width": 4032,
-        "height": 3024
+        "width": 3024,
+        "height": 4032
       },
+      "orientation_normalized": true,
       "annotation_mode": "mask",
       "annotation_format": "polygon",
       "annotated_file": null,
@@ -163,13 +169,14 @@
       "num_classes": 1,
       "objects": 1,
       "image_size": {
-        "width": 1280,
-        "height": 960
+        "width": 960,
+        "height": 1280
       },
       "resized_from": {
-        "width": 4032,
-        "height": 3024
+        "width": 3024,
+        "height": 4032
       },
+      "orientation_normalized": true,
       "annotation_mode": "mask",
       "annotation_format": "polygon",
       "annotated_file": null,
@@ -185,13 +192,14 @@
       "num_classes": 1,
       "objects": 1,
       "image_size": {
-        "width": 1280,
-        "height": 960
+        "width": 960,
+        "height": 1280
       },
       "resized_from": {
-        "width": 4032,
-        "height": 3024
+        "width": 3024,
+        "height": 4032
       },
+      "orientation_normalized": true,
       "annotation_mode": "mask",
       "annotation_format": "polygon",
       "annotated_file": null,
@@ -207,13 +215,14 @@
       "num_classes": 1,
       "objects": 1,
       "image_size": {
-        "width": 1280,
-        "height": 960
+        "width": 960,
+        "height": 1280
       },
       "resized_from": {
-        "width": 4032,
-        "height": 3024
+        "width": 3024,
+        "height": 4032
       },
+      "orientation_normalized": true,
       "annotation_mode": "mask",
       "annotation_format": "polygon",
       "annotated_file": null,
