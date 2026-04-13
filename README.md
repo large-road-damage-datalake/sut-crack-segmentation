@@ -11,7 +11,7 @@ classification, object detection, and segmentation workflows under challenging f
 - Task: segmentation
 - Images: 130
 - Annotations: 130
-- Classes: 1 (255)
+- Classes: 1 (crack)
 - Format: png_masks
 - Source dataset DOI: 10.17632/gsbmknrhkv.6
 - Source paper DOI: 10.1016/j.dib.2023.109642

@@ -43,10 +43,20 @@
     "camera_viewpoint": [
       "top-down"
     ],
-    "resolution": "Variable original image resolutions",
+    "resolution": "3024x4032, 4032x3024",
     "lighting_conditions": "Includes varied lighting, shadows, and oil-stain conditions",
     "capture_height_mm": 672,
-    "geotagged": true
+    "geotagged": true,
+    "resolution_details": [
+      {
+        "resolution": "3024x4032",
+        "count": 11
+      },
+      {
+        "resolution": "4032x3024",
+        "count": 119
+      }
+    ]
   },
   "annotation_schema": [
     {
@@ -55,8 +65,8 @@
       "classes": [
         {
           "id": 1,
-          "name": "255",
-          "description": "SUT-Crack class: 255",
+          "name": "crack",
+          "description": "SUT-Crack class: crack",
           "color": "#294F71"
         }
       ]
@@ -72,7 +82,7 @@
     "dataset_file_count": 260,
     "image_format": "png_masks",
     "class_distribution": {
-      "255": 130
+      "crack": 130
     },
     "split": {
       "data": {
@@ -90,7 +100,9 @@
     "countries": [
       {
         "name": "Iran",
-        "image_count": 130
+        "image_count": 130,
+        "annotated_image_count": 130,
+        "annotation_coverage": 1.0
       }
     ],
     "temporal_scope": "Published in 2023 (Mendeley Data v6)"

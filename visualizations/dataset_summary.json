@@ -7,7 +7,7 @@
       "images": 130,
       "annotations": 130,
       "classes": {
-        "255": 130
+        "crack": 130
       }
     }
   }
