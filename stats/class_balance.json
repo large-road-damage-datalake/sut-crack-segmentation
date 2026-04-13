@@ -10,9 +10,9 @@
     [
       "crack",
       130,
-      130,
-      1.0,
-      0.0
+      174,
+      1.3385,
+      1.3181
     ]
   ],
   "description": "Images column counts images containing at least one object of class.",

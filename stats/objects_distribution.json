@@ -3,7 +3,15 @@
   "title": "Objects on images - distribution for every class",
   "x_labels": [
     "0",
-    "1"
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
   ],
   "y_labels": [
     "crack"
@@ -11,7 +19,15 @@
   "z": [
     [
       0,
-      130
+      111,
+      11,
+      4,
+      1,
+      0,
+      0,
+      0,
+      2,
+      1
     ]
   ],
   "description": "Value = number of images where class has exactly x objects."

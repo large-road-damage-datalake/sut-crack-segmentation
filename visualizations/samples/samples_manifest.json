@@ -144,7 +144,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 1,
+      "objects": 3,
       "image_size": {
         "width": 960,
         "height": 1280
@@ -190,7 +190,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 1,
+      "objects": 2,
       "image_size": {
         "width": 960,
         "height": 1280
