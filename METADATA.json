@@ -17,11 +17,9 @@
     ],
     "task_classification": {
       "primary_task": "segmentation",
-      "task_subtype": "semantic_segmentation",
-      "segmentation_type": "semantic_segmentation",
-      "segmentation_family": "semantic",
-      "segmentation_type_inferred": false
+      "task_subtype": "semantic_segmentation"
     },
+    "label_taxonomy_version": "road_damage_v2",
     "segmentation_type": "semantic_segmentation",
     "task_subtype": "semantic_segmentation",
     "source_dataset": {
@@ -29,8 +27,7 @@
       "doi": "10.17632/gsbmknrhkv.6",
       "url": "https://data.mendeley.com/datasets/gsbmknrhkv/6",
       "version": "6"
-    },
-    "label_taxonomy_version": "road_damage_v1"
+    }
   },
   "imaging_setup": {
     "camera": "Road-surface imaging setup from source dataset",
@@ -50,6 +47,25 @@
         "resolution": "4032x3024",
         "count": 119
       }
+    ],
+    "resolution_by_country": [
+      {
+        "name": "Iran",
+        "resolutions": [
+          "3024x4032",
+          "4032x3024"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "3024x4032",
+            "count": 11
+          },
+          {
+            "resolution": "4032x3024",
+            "count": 119
+          }
+        ]
+      }
     ]
   },
   "annotation_schema": [
@@ -63,87 +79,14 @@
           "description": "SUT-Crack class: crack",
           "color": "#294F71",
           "canonical_name": "crack",
-          "instances": 174
+          "source_labels": [
+            "crack"
+          ],
+          "instances": 171
         }
       ]
     }
   ],
-  "statistics": {
-    "n_images": 130,
-    "n_annotations": 174,
-    "n_images_with_annotations": 130,
-    "average_annotations_per_image": 1.3384615384615384,
-    "dataset_size": "734.95 MB",
-    "dataset_size_bytes": 770649482,
-    "dataset_file_count": 260,
-    "image_format": "png_masks",
-    "class_distribution": {
-      "crack": 174
-    },
-    "split": {
-      "data": {
-        "n_images": 130,
-        "percentage": 1,
-        "n_images_with_annotations": 130,
-        "annotation_coverage": 1,
-        "dataset_size": "734.95 MB",
-        "dataset_size_bytes": 770649482,
-        "dataset_file_count": 260
-      }
-    }
-  },
-  "geographic_coverage": {
-    "countries": [
-      {
-        "name": "Iran",
-        "image_count": 130,
-        "annotated_image_count": 130,
-        "annotation_coverage": 1
-      }
-    ],
-    "temporal_scope": "Published in 2023 (Mendeley Data v6)"
-  },
-  "quality_assurance": {
-    "annotation_quality": "Labels published with Mendeley Data dataset release",
-    "inter_annotator_agreement": "Not reported",
-    "review_status": "Published dataset"
-  },
-  "authors": [
-    {
-      "name": "Mohammadreza Sabouri",
-      "affiliation": "Sharif University of Technology",
-      "role": "Dataset Creator"
-    },
-    {
-      "name": "Alireza Sepidbar",
-      "affiliation": "Sharif University of Technology",
-      "role": "Dataset Creator"
-    }
-  ],
-  "license": "CC BY 4.0",
-  "links": {
-    "github": "https://github.com/large-road-damage-datalake/sut-crack-segmentation",
-    "download": "https://data.mendeley.com/datasets/gsbmknrhkv/6",
-    "homepage": "https://data.mendeley.com/datasets/gsbmknrhkv/6",
-    "paper": "https://doi.org/10.1016/j.dib.2023.109642"
-  },
-  "citation": {
-    "bibtex": "@article{sabouri2023sutcrack,\n  title={SUT-Crack: A comprehensive dataset for pavement crack detection across all methods},\n  author={Sabouri, Mohammadreza and Sepidbar, Alireza},\n  journal={Data in Brief},\n  volume={51},\n  pages={109642},\n  year={2023},\n  doi={10.1016/j.dib.2023.109642},\n  url={https://doi.org/10.1016/j.dib.2023.109642}\n}\n\n@misc{sabouri2023sutcrack_mendeley,\n  title={SUT-Crack},\n  author={Sabouri, Mohammadreza and Sepidbar, Alireza},\n  year={2023},\n  publisher={Mendeley Data},\n  version={6},\n  doi={10.17632/gsbmknrhkv.6},\n  url={https://doi.org/10.17632/gsbmknrhkv.6}\n}"
-  },
-  "tags": [
-    "png-masks",
-    "road-crack",
-    "road-damage",
-    "segmentation",
-    "sut-crack"
-  ],
-  "source_publication": {
-    "dataset_doi": "10.17632/gsbmknrhkv.6",
-    "article_doi": "10.1016/j.dib.2023.109642",
-    "article_title": "SUT-Crack: A comprehensive dataset for pavement crack detection across all methods",
-    "journal": "Data in Brief",
-    "year": 2023
-  },
   "class_taxonomy": {
     "version": "road_damage_v2",
     "classes": [
@@ -174,5 +117,81 @@
       "crack"
     ],
     "unresolved_labels": []
+  },
+  "statistics": {
+    "n_images": 130,
+    "n_annotations": 171,
+    "n_images_with_annotations": 130,
+    "average_annotations_per_image": 1.3153846153846154,
+    "dataset_size": "734.95 MB",
+    "dataset_size_bytes": 770649482,
+    "dataset_file_count": 260,
+    "image_format": "png_masks",
+    "class_distribution": {
+      "crack": 171
+    },
+    "split": {
+      "data": {
+        "n_images": 130,
+        "percentage": 1.0,
+        "n_images_with_annotations": 130,
+        "annotation_coverage": 1.0,
+        "dataset_size": "734.95 MB",
+        "dataset_size_bytes": 770649482,
+        "dataset_file_count": 260
+      }
+    }
+  },
+  "geographic_coverage": {
+    "countries": [
+      {
+        "name": "Iran",
+        "image_count": 130,
+        "annotated_image_count": 130,
+        "annotation_coverage": 1.0
+      }
+    ],
+    "temporal_scope": "Published in 2023 (Mendeley Data v6)"
+  },
+  "quality_assurance": {
+    "annotation_quality": "Labels published with Mendeley Data dataset release",
+    "inter_annotator_agreement": "Not reported",
+    "review_status": "Published dataset"
+  },
+  "authors": [
+    {
+      "name": "Mohammadreza Sabouri",
+      "affiliation": "Sharif University of Technology",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Alireza Sepidbar",
+      "affiliation": "Sharif University of Technology",
+      "role": "Dataset Creator"
+    }
+  ],
+  "license": "CC BY 4.0",
+  "links": {
+    "github": "https://github.com/large-road-damage-datalake/sut-crack-segmentation",
+    "download": "https://data.mendeley.com/datasets/gsbmknrhkv/6",
+    "paper": "https://doi.org/10.1016/j.dib.2023.109642",
+    "homepage": "https://data.mendeley.com/datasets/gsbmknrhkv/6"
+  },
+  "citation": {
+    "bibtex": "@article{sabouri2023sutcrack,\n  title={SUT-Crack: A comprehensive dataset for pavement crack detection across all methods},\n  author={Sabouri, Mohammadreza and Sepidbar, Alireza},\n  journal={Data in Brief},\n  volume={51},\n  pages={109642},\n  year={2023},\n  doi={10.1016/j.dib.2023.109642},\n  url={https://doi.org/10.1016/j.dib.2023.109642}\n}\n\n@misc{sabouri2023sutcrack_mendeley,\n  title={SUT-Crack},\n  author={Sabouri, Mohammadreza and Sepidbar, Alireza},\n  year={2023},\n  publisher={Mendeley Data},\n  version={6},\n  doi={10.17632/gsbmknrhkv.6},\n  url={https://doi.org/10.17632/gsbmknrhkv.6}\n}"
+  },
+  "tags": [
+    "png-masks",
+    "road-crack",
+    "road-damage",
+    "segmentation",
+    "sut-crack"
+  ],
+  "source_publication": {
+    "dataset_doi": "10.17632/gsbmknrhkv.6",
+    "article_doi": "10.1016/j.dib.2023.109642",
+    "article_title": "SUT-Crack: A comprehensive dataset for pavement crack detection across all methods",
+    "journal": "Data in Brief",
+    "year": 2023
   }
 }

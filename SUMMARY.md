@@ -3,7 +3,7 @@
 - Dataset: SUT-Crack
 - Variant: Segmentation
 - Images in package: 130
-- Annotations in package: 174
+- Annotations in package: 171
 - Classes: 1 (crack)
 - Source dataset DOI: 10.17632/gsbmknrhkv.6
 - Source paper DOI: 10.1016/j.dib.2023.109642

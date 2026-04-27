@@ -10,7 +10,7 @@ classification, object detection, and segmentation workflows under challenging f
 - Dataset ID: sut-crack-segmentation
 - Task: segmentation
 - Images: 130
-- Annotations: 174
+- Annotations: 171
 - Classes: 1 (crack)
 - Format: png_masks
 - Source dataset DOI: 10.17632/gsbmknrhkv.6
