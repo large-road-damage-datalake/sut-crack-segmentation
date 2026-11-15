@@ -4,7 +4,7 @@
     "id": "sut-crack-segmentation",
     "name": "SUT-Crack",
     "short_name": "sut-crack-seg",
-    "description": "Segmentation packaging of SUT-Crack based on the 130 original asphalt pavement images with pixel-level crack masks.",
+    "description": "SUT-Crack segmentation dataset containing 130 asphalt pavement images (3024x4032) with pixel-level binary crack masks captured on Hashemieh Boulevard, Mashhad, Iran.",
     "year": 2023
   },
   "project_context": {
@@ -30,39 +30,30 @@
     }
   },
   "imaging_setup": {
-    "camera": "Road-surface imaging setup from source dataset",
+    "camera": "Samsung Galaxy S20 FE smartphone (7.3 x 5.4 mm sensor, 5.4 mm lens) mounted on a vehicle's rear bumper",
     "camera_viewpoint": [
       "top-down"
     ],
-    "resolution": "3024x4032, 4032x3024",
+    "resolution": "3024x4032",
     "lighting_conditions": "Includes varied lighting, shadows, and oil-stain conditions",
     "capture_height_mm": 672,
     "geotagged": true,
     "resolution_details": [
       {
         "resolution": "3024x4032",
-        "count": 11
-      },
-      {
-        "resolution": "4032x3024",
-        "count": 119
+        "count": 130
       }
     ],
     "resolution_by_country": [
       {
         "name": "Iran",
         "resolutions": [
-          "3024x4032",
-          "4032x3024"
+          "3024x4032"
         ],
         "resolution_details": [
           {
             "resolution": "3024x4032",
-            "count": 11
-          },
-          {
-            "resolution": "4032x3024",
-            "count": 119
+            "count": 130
           }
         ]
       }
@@ -138,9 +129,11 @@
         "annotation_coverage": 1.0,
         "dataset_size": "734.95 MB",
         "dataset_size_bytes": 770649482,
-        "dataset_file_count": 260
+        "dataset_file_count": 260,
+        "annotated": true
       }
-    }
+    },
+    "n_images_in_annotated_splits": 130
   },
   "geographic_coverage": {
     "countries": [
@@ -151,22 +144,22 @@
         "annotation_coverage": 1.0
       }
     ],
-    "temporal_scope": "Published in 2023 (Mendeley Data v6)"
+    "temporal_scope": "Published in 2023 (Mendeley Data v6, 2023-09-18); captured on Hashemieh Boulevard, Mashhad, Iran"
   },
   "quality_assurance": {
-    "annotation_quality": "Labels published with Mendeley Data dataset release",
+    "annotation_quality": "Pixel-level binary crack masks (3024x4032) paired with 130 parent asphalt pavement images in the Mendeley Data v6 release (119 of 130 JPEG files carry EXIF orientation tag 6 to match the 3024x4032 portrait mask dimensions).",
     "inter_annotator_agreement": "Not reported",
     "review_status": "Published dataset"
   },
   "authors": [
     {
       "name": "Mohammadreza Sabouri",
-      "affiliation": "Sharif University of Technology",
+      "affiliation": "Department of Civil Engineering, Sharif University of Technology",
       "role": "Dataset Creator"
     },
     {
       "name": "Alireza Sepidbar",
-      "affiliation": "Sharif University of Technology",
+      "affiliation": "Department of Civil Engineering, Sharif University of Technology",
       "role": "Dataset Creator"
     }
   ],
@@ -174,6 +167,7 @@
   "links": {
     "github": "https://github.com/large-road-damage-datalake/sut-crack-segmentation",
     "download": "https://data.mendeley.com/datasets/gsbmknrhkv/6",
+    "doi": "https://doi.org/10.17632/gsbmknrhkv.6",
     "paper": "https://doi.org/10.1016/j.dib.2023.109642",
     "homepage": "https://data.mendeley.com/datasets/gsbmknrhkv/6"
   },

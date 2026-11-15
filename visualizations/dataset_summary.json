@@ -5,17 +5,12 @@
   "annotated_images": 130,
   "annotation_coverage": 1.0,
   "image_resolution_histogram": {
-    "3024x4032": 11,
-    "4032x3024": 119
+    "3024x4032": 130
   },
   "resolution_details": [
     {
       "resolution": "3024x4032",
-      "count": 11
-    },
-    {
-      "resolution": "4032x3024",
-      "count": 119
+      "count": 130
     }
   ],
   "splits_breakdown": {
@@ -28,8 +23,7 @@
         "crack": 171
       },
       "image_resolution_histogram": {
-        "3024x4032": 11,
-        "4032x3024": 119
+        "3024x4032": 130
       }
     }
   }

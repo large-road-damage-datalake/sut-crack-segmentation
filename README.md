@@ -18,11 +18,12 @@ classification, object detection, and segmentation workflows under challenging f
 
 ## Source Facts
 
-- Original crack imagery for segmentation/object detection: 130 images.
+- Original crack imagery for segmentation/object detection: 130 images (`3024x4032`; 119 of 130 JPEG files carry EXIF orientation tag 6 to match the `3024x4032` portrait masks).
 - Images captured from fixed height: 672 mm above pavement.
+- Captured with a Samsung Galaxy S20 FE smartphone mounted on the rear bumper of a vehicle on Hashemieh Boulevard, Mashhad, Iran.
 - Geotag metadata included (latitude/longitude per image in source dataset).
-- Classification set built by 200x200 cropping, producing over 25,000 patches.
-- Uses full-size geotagged source images with crack masks.
+- Classification set built by 200x200 cropping, producing 25,561 patches in Mendeley Data v6.
+- Uses full-size geotagged source images with pixel-level binary crack masks.
 
 ## Source Dataset
 

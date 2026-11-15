@@ -4,7 +4,7 @@
 
 SUT-Crack on Mendeley Data is published under:
 
-- CC BY 4.0
+- CC BY 4.0 (the Mendeley Data deposit; the accompanying Data in Brief article is licensed CC BY-NC-ND 4.0)
 
 - Source page: https://data.mendeley.com/datasets/gsbmknrhkv/6
 - DOI URL: https://doi.org/10.17632/gsbmknrhkv.6
